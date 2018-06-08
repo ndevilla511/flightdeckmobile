@@ -6,6 +6,9 @@ export default class LogIn extends Component {
   constructor(props) {
     super(props)
   };
+  static navigationOptions = {
+    header: null
+  }
 
   render() {
     return (

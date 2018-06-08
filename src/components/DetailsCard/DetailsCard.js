@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import styles from 'DetailsCard_styles'
+import styles from './DetailsCard_styles'
 
 export default class DetailsCard extends Component {
   constructor(props) {
