@@ -1,6 +1,8 @@
+import { apiKey } from '../../apiKey.js'
+
 const config = () => {
   return {
-    apiKey: "AIzaSyDhvBMIcXEspP9mH5-EL5768ZQi4lqmPTA",
+    apiKey: apiKey,
     authDomain: "flightdeckmobile-test.firebaseapp.com",
     databaseURL: "https://flightdeckmobile-test.firebaseio.com",
     projectId: "flightdeckmobile-test",
